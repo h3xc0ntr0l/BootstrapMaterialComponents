@@ -1,0 +1,22 @@
+{
+  "name": "bootstrapmaterialcomponents",
+  "version": "1.0.0",
+  "description": "Material Design components for bootstrap",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h3xc0ntr0l/BootstrapMaterialComponents.git"
+  },
+  "author": "",
+  "license": "GNU GPLv3",
+  "bugs": {
+    "url": "https://github.com/h3xc0ntr0l/BootstrapMaterialComponents/issues"
+  },
+  "homepage": "https://github.com/h3xc0ntr0l/BootstrapMaterialComponents#readme",
+  "devDependencies": {
+    "grunt-contrib-compass": "^1.1.1"
+    "grunt": "^1.0.1",
+  }
+}

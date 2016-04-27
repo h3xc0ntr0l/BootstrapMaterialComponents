@@ -1,0 +1,73 @@
+/*
+Error: Undefined variable: "$teal".
+        on line 11 of /home/oawea/BootstrapMaterialComponents/scss/form.scss
+
+6:   background: #efefef;
+7:   box-shadow: 0 .2rem 1rem 0 #6f6f6f; 
+8: }
+9: 
+10: .-form-header{
+11:   background: $teal;
+12:   span{
+13:     color: lighten(blue, 50%);
+14:     font-size: 125%;
+15:     margin-left: 1rem;
+16:     padding: 0;
+
+Backtrace:
+/home/oawea/BootstrapMaterialComponents/scss/form.scss:11
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:20:in `render'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:281:in `render'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:40:in `compile!'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/compass-1.0.3/lib/compass/commands/update_project.rb:49:in `perform'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+/home/oawea/.rvm/gems/ruby-2.3.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+/home/oawea/.rvm/gems/ruby-2.3.0/bin/compass:23:in `load'
+/home/oawea/.rvm/gems/ruby-2.3.0/bin/compass:23:in `<main>'
+/home/oawea/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `eval'
+/home/oawea/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$teal\".\A         on line 11 of /home/oawea/BootstrapMaterialComponents/scss/form.scss\A \A 6:   background: #efefef;\A 7:   box-shadow: 0 .2rem 1rem 0 #6f6f6f; \A 8: }\A 9: \A 10: .-form-header{\A 11:   background: $teal;\A 12:   span{\A 13:     color: lighten(blue, 50%);\A 14:     font-size: 125%;\A 15:     margin-left: 1rem;\A 16:     padding: 0;"; }

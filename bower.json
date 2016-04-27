@@ -1,0 +1,20 @@
+{
+  "name": "BootstrapMaterialComponents",
+  "homepage": "https://github.com/h3xc0ntr0l/BootstrapMaterialComponents",
+  "authors": [
+    "Michael Ward <h3xc0ntr0l@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "GNU GPLv3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5"
+  }
+}
